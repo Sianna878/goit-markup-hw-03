@@ -108,7 +108,8 @@ a {
 
 /* ЛОГОТИП */
 
-.logo {
+.logo,
+.logo-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -123,8 +124,7 @@ a {
 .link-nav,
 .info-link {
   display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 32px 0;
 }
 
 .link-nav {
@@ -386,8 +386,21 @@ a {
   background-color: var(--border-bg-color);
 }
 
+.logo-footer {
+  display: block;
+  margin-bottom: 20px;
+}
+
 .logo-studio-footer {
   color: var(--logo-footer-color);
+}
+
+/* .contact-list-item {
+  margin-bottom: 9px;
+} */
+
+.contact-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .link-contact {
