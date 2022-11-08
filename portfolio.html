@@ -21,15 +21,15 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!-- ПОРТФОЛІО>ШАПКА САЙТУ -->
-    <header class="header-part">
+    <!-- HEADER -->
+    <header class="part-header">
       <div class="container header-container">
         <nav class="navigation">
-          <!-- ЛОГОТИП -->
+          <!-- логотип -->
           <a href="./index.html" class="site-nav logo" lang="en"
-            >Web<span class="studio-logo">Studio</span>
+            >Web<span class="logo-black">Studio</span>
           </a>
-          <!-- МЕНЮ САЙТУ -->
+          <!-- навігація сайту -->
           <ul class="header-nav list">
             <li><a href="./index.html" class="link-nav">Студія</a></li>
             <li>
@@ -38,6 +38,7 @@
             <li><a href="#" class="link-nav">Контакти</a></li>
           </ul>
         </nav>
+        <!-- контактна інформація -->
         <ul class="header-contacts list">
           <li>
             <a href="mailto:info@devstudio.com" class="info-link"
@@ -50,12 +51,13 @@
         </ul>
       </div>
     </header>
+    <!-- MAIN-PORTFOLIO -->
     <main>
       <section class="portfolio section">
         <div class="container">
           <h1 class="visually-hidden">Наші проєкти</h1>
-          <!-- КНОПКИ-ФІЛЬТРИ -->
-          <ul class="filter-list list">
+          <!-- фільтр-кнопки -->
+          <ul class="filter-set list">
             <li>
               <button type="button" class="filter-btn button current">
                 Усі
@@ -74,92 +76,87 @@
               <button type="button" class="filter-btn button">Маркетинг</button>
             </li>
           </ul>
-          <!-- ПРОЄКТИ -->
-          <ul class="project-list list">
-            <li class="project-item">
+          <!-- проєкти -->
+          <ul class="card-set list">
+            <li class="item">
               <a class="project-link" href="#">
                 <img
-                  class="project-card"
                   src="./images/site-technocrack.jpg"
                   alt="сайт на ноутбуці"
                   width="370"
                   height="294"
                 />
-                <div class="project-description">
-                  <h2 class="project-name">Технокряк</h2>
-                  <p class="project-work">Веб-сайт</p>
+                <div class="card-content">
+                  <h2 class="card-heading">Технокряк</h2>
+                  <p class="project-doing">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="project-item">
+            <li class="item">
               <a class="project-link" href="#">
                 <img
-                  class="project-card"
                   src="./images/poster-basketball.jpg"
                   alt="гра в баскетбол"
                   width="370"
                   height="294"
                 />
-                <div class="project-description">
-                  <h2 class="project-name">
+                <div class="card-content">
+                  <h2 class="card-heading">
                     Постер <span lang="en">New Orlean vs Golden Star</span>
                   </h2>
-                  <p class="project-work">Дизайн</p>
+                  <p class="project-doing">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="project-item">
+            <li class="item">
               <a class="project-link" href="#">
                 <img
-                  class="project-card"
                   src="./images/restaurant-seafood.jpg"
                   alt="риба на логотипі ресторану"
                   width="370"
                   height="294"
                 />
-                <div class="project-description">
-                  <h2 class="project-name">
+                <div class="card-content">
+                  <h2 class="card-heading">
                     Ресторан <span lang="en">Seafood</span>
                   </h2>
-                  <p class="project-work">Додаток</p>
+                  <p class="project-doing">Додаток</p>
                 </div>
               </a>
             </li>
-            <li class="project-item">
+            <li class="item">
               <a class="project-link" href="#">
                 <img
-                  class="project-card"
                   src="./images/project-prime.jpg"
                   alt="повнорозмірні чорні навушники"
                   width="370"
                   height="294"
                 />
-                <div class="project-description">
-                  <h2 class="project-name">
+                <div class="card-content">
+                  <h2 class="card-heading">
                     Проєкт <span lang="en">Prime</span>
                   </h2>
-                  <p class="project-work">Маркетинг</p>
+                  <p class="project-doing">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="project-item">
+            <li class="item">
               <a class="project-link" href="#">
                 <img
-                  class="project-card"
                   src="./images/project-boxes.jpg"
                   alt="біла та коричнева кортонні коробки"
                   width="370"
                   height="294"
                 />
-                <div class="project-description">
-                  <h2 class="project-name">
+                <div class="card-content">
+                  <h2 class="card-heading">
                     Проєкт <span lang="en">Boxes</span>
                   </h2>
-                  <p class="project-work">Додаток</p>
+                  <p class="project-doing">Додаток</p>
                 </div>
               </a>
             </li>
-            <li class="project-item">
+            <li class="item">
               <a class="project-link" href="#">
                 <img
                   class="project-card"
@@ -168,62 +165,59 @@
                   width="370"
                   height="294"
                 />
-                <div class="project-description">
-                  <h2 class="project-name">
+                <div class="card-content">
+                  <h2 class="card-heading">
                     <span lang="en">Inspiration has no Borders</span>
                   </h2>
-                  <p class="project-work">Веб-сайт</p>
+                  <p class="project-doing">Веб-сайт</p>
                 </div>
               </a>
             </li>
-            <li class="project-item">
+            <li class="item">
               <a class="project-link" href="#">
                 <img
-                  class="project-card"
                   src="./images/limited-edition.jpg"
                   alt="розгорнутий журнал зі статтею"
                   width="370"
                   height="294"
                 />
-                <div class="project-description">
-                  <h2 class="project-name">
+                <div class="card-content">
+                  <h2 class="card-heading">
                     Видання <span lang="en">Limited Edition</span>
                   </h2>
-                  <p class="project-work">Дизайн</p>
+                  <p class="project-doing">Дизайн</p>
                 </div>
               </a>
             </li>
-            <li class="project-item">
+            <li class="item">
               <a class="project-link" href="#">
                 <img
-                  class="project-card"
                   src="./images/project-lab.jpg"
                   alt="етикетка з написом"
                   width="370"
                   height="294"
                 />
-                <div class="project-description">
-                  <h2 class="project-name">
+                <div class="card-content">
+                  <h2 class="card-heading">
                     Проєкт <span lang="en">LAB</span>
                   </h2>
-                  <p class="project-work">Маркетинг</p>
+                  <p class="project-doing">Маркетинг</p>
                 </div>
               </a>
             </li>
-            <li class="project-item">
+            <li class="item">
               <a class="project-link" href="#">
                 <img
-                  class="project-card"
                   src="./images/growing-business.jpg"
                   alt="сайт на ноутбуці"
                   width="370"
                   height="294"
                 />
-                <div class="project-description">
-                  <h2 class="project-name">
+                <div class="card-content">
+                  <h2 class="card-heading">
                     <span lang="en">Growing Business</span>
                   </h2>
-                  <p class="project-work">Додаток</p>
+                  <p class="project-doing">Додаток</p>
                 </div>
               </a>
             </li>
@@ -231,14 +225,15 @@
         </div>
       </section>
     </main>
-    <!-- ПІДВАЛ -->
-    <footer class="bg-footer">
+    <!-- FOOTER -->
+    <footer class="part-footer">
       <div class="container">
+        <!-- логотип -->
         <a href="./index.html" class="logo-footer" lang="en"
-          >Web<span class="logo-studio-footer">Studio</span>
+          >Web<span class="logo-white">Studio</span>
         </a>
         <address>
-          <!-- КОНТАКТИ -->
+          <!-- контакти -->
           <ul class="contact-list list">
             <li class="contact-item">
               <a

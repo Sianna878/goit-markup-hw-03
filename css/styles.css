@@ -87,7 +87,7 @@ img {
 
 /* HEADER  */
 
-.header-part {
+.part-header {
   border-bottom: 1px solid var(--border-header-color);
 }
 
@@ -113,13 +113,7 @@ img {
   margin-left: auto;
 }
 
-/* ЛОГОТИП */
-
-.logo {
-  margin-right: 93px;
-  padding-top: 24px;
-  padding-bottom: 25px;
-}
+/* логотип */
 
 .logo,
 .logo-footer {
@@ -131,8 +125,14 @@ img {
   color: var(--accent-color);
 }
 
-.studio-logo {
+.logo-black {
   color: var(--logo-part-color);
+}
+
+.logo {
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .link-nav,
@@ -167,9 +167,9 @@ img {
   color: var(--accent-color);
 }
 
-/* СТУДІЯ*/
+/* MAIN-STUDIO */
 
-/* СЕКЦІЯ-ГЕРОЙ */
+/* секція герой */
 
 .hero {
   background-color: var(--border-bg-color);
@@ -212,7 +212,7 @@ img {
   background: var(--secondary-accent-color);
 }
 
-/* СЕКЦІЯ-ПЕРЕВАГИ */
+/* секція переваги */
 
 .benefit-list {
   display: flex;
@@ -222,6 +222,7 @@ img {
 .benefit-title {
   font-size: 14px;
   line-height: 1.1428;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--secondary-text-color);
 
@@ -233,7 +234,7 @@ img {
   color: var(--main-text-color);
 }
 
-/* СЕКЦІЯ-ДІЯЛЬНІСТЬ */
+/* секція діяльність */
 
 .activity {
   padding-top: 0;
@@ -254,7 +255,7 @@ img {
   gap: 30px;
 }
 
-/* СЕКЦІЯ-КОМАНДА */
+/* секція команда */
 
 .team {
   background-color: var(--section-team-bg-color);
@@ -275,15 +276,18 @@ img {
   gap: 30px;
 }
 
-.team-list-item {
+.team-item {
   flex-basis: calc((100% - 90px) / 4);
   border-radius: 0px 0px 4px 4px;
   background: var(--main-bg-color);
-  /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2); */
 }
 
-.team-name {
+.team-description {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.team-member {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.1875;
@@ -302,16 +306,11 @@ img {
   color: var(--main-text-color);
 }
 
-.team-description {
-  text-align: center;
-  padding: 30px 0;
-}
+/* MAIN-PORTFOLIO */
 
-/* ПОРТФОЛІО */
+/* фільтр-кнопки */
 
-/* КНОПКИ-ФІЛЬТРИ */
-
-.filter-list {
+.filter-set {
   display: flex;
   gap: 8px;
   justify-content: center;
@@ -341,25 +340,25 @@ img {
   background: var(--accent-color);
 }
 
-/* ПРОЄКТИ */
+/* проєкти */
 
-.project-list {
+.card-set {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.project-item {
+.card-set > .item {
   width: calc((100% - 60px) / 3);
 }
 
-.project-description {
+.card-content {
   padding: 20px 24px;
   border: 1px solid var(--border-project-color);
   border-top: 0;
 }
 
-.project-name {
+.card-heading {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -368,28 +367,32 @@ img {
   margin-bottom: 4px;
 }
 
-.project-work {
+.project-doing {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
 
-/* ПІДВАЛ */
+/* FOOTER */
 
-.bg-footer {
+.part-footer {
   padding: 60px 0;
   background-color: var(--border-bg-color);
 }
+
+/* логотип */
 
 .logo-footer {
   display: block;
   margin-bottom: 20px;
 }
 
-.logo-studio-footer {
+.logo-white {
   color: var(--logo-footer-color);
 }
+
+/* контакти */
 
 .contact-item:not(:last-child) {
   margin-bottom: 9px;
