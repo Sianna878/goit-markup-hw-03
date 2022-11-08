@@ -219,6 +219,10 @@ img {
   gap: 30px;
 }
 
+.benefit-item {
+  flex-basis: calc((100% - 90px) / 4);
+}
+
 .benefit-title {
   font-size: 14px;
   line-height: 1.1428;
